@@ -1,4 +1,4 @@
-# RPI-Acacia-Recruitment-Site
+# rush-rpi-acacia.org
 This is a recruitment website that I built for my college fraternity chapter. It was done as a final project for the class Fundamentals of Website Design. I took the class in Summer of 2016, thus the composite photos of the brothers are outdated, though it still shows the general concept. Our chapter was unfortunately never able to go live with this site, due to a lack of budget for hosting, and the fact that this was built by a single person (me), and likely would have had security issues.
 # Structure
 Home Page: 
