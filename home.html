@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Rush Acacia Home</title>
+    <link rel=stylesheet href="css/styles.css">
+    <!--script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATSblewG_ECXNLgTvRTtHpsGJRDwSUOtA&callback=initMap"
+  type="text/javascript"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"> </script>
+    <script>
+        var map;
+        /* RPI Union
+        42.7299241, -73.6765641 */
+        var lat1 = 42.7299241;
+        var lng1 = -73.6765641;
+        /* RPI Acacia
+            42.7299413, -73.6677962 */
+        var lat2 = 42.7299413;
+        var lng2 = -73.6677962;
+        function initialize_map() {
+            var mapOptions = {
+            zoom: 17,
+                center: new google.maps.LatLng((lat1+lat2)/2, (lng1+lng2)/2)
+            };
+            map = new google.maps.Map(document.getElementById('map-canvas'),
+                mapOptions);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize_map);
+    </script-->
+    <link rel="stylesheet" href="swipebox-master/src/css/swipebox.min.css">
+    <script src="swipebox-master/lib/jquery-2.1.0.min.js"></script>
+    <script src="swipebox-master/src/js/jquery.swipebox.min.js"></script>
+
+
+</head>
+
+<body>
+    <img src="Photos/rush_acacia_desert.jpg" class="banner" alt="banner">
+    <br/>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li><a href="brothers.html">Meet the Brothers</a></li>
+            <li><a href="philanthropy.html">Philanthropy</a></li>
+        </ul>
+    </nav>
+    <section class="content">
+        <h1>Welcome to RPI Acacia's Recruitment Home page!</h1>
+        <p>Being in a fraternity is more than about partying; a good fraternity is a tight-knit group of college men dedicated to their studies, each other, and their community. This is an important value of Acacia's called the Order of Priorities. To learn more about Acacia's values, history, and more, you can visit <a href="http://www.acacia.org/about/">Acacia's International site</a>, or for more chapter specific information, the <a href="http://www.rpi-acacia.org/about.html">Rensselaer Acacia official site.</a></p>
+        <img src="Photos/Philanthropy_Photos/aoe_mixer.jpg" title="Acacia's mixer with Alpha Omega Epsilon" alt="AOE Mixer">
+        <p>It can be fun, too, though. Check out the events we have planned for Spring 2015, or see a <a href="Photos/spring_2015_calendar.jpg">full-size calendar.</a> You can also recieve a printout if you see us at Meet the Greeks. In addition, <a href="Photos/rush_photos/IMG_1228.jpg" class="swipebox">view some of our rush photos from previous years.</a></p>
+        <!--Using Spring 2015 calendar because our rush chair didn't get me the new one in time-->
+        <div id="gallery">
+            <!--a href="Photos/rush_photos/IMG_1228.jpg" class="swipebox"><img src="Photos/rush_photos/IMG_1228.jpg"></a-->
+            <a href="Photos/rush_photos/IMG_1284.JPG" class="swipebox"><img src="Photos/rush_photos/IMG_1284.JPG" alt="Photo 1"></a>
+            <a href="Photos/rush_photos/IMG_1296.JPG" class="swipebox"><img src="Photos/rush_photos/IMG_1296.JPG" alt="Photo 2"></a>
+            <a href="Photos/rush_photos/IMG_1312.JPG" class="swipebox"><img src="Photos/rush_photos/IMG_1312.JPG" alt="Photo 3"></a>
+            <a href="Photos/rush_photos/IMG_1334.JPG" class="swipebox"><img src="Photos/rush_photos/IMG_1334.JPG" alt="Photo 4"></a>
+            <a href="Photos/rush_photos/IMG_1372.JPG" class="swipebox"><img src="Photos/rush_photos/IMG_1372.JPG" alt="Photo 5"></a>
+            <a href="Photos/rush_photos/IMG_1389.JPG" class="swipebox"><img src="Photos/rush_photos/IMG_1389.JPG" alt="Photo 6"></a>
+            <a href="Photos/rush_photos/IMG_1401.JPG" class="swipebox"><img src="Photos/rush_photos/IMG_1401.JPG" alt="Photo 7"></a>
+            <a href="Photos/rush_photos/IMG_1430.JPG" class="swipebox"><img src="Photos/rush_photos/IMG_1430.JPG" alt="Photo 8"></a>
+            <a href="Photos/rush_photos/IMG_1433.JPG" class="swipebox"><img src="Photos/rush_photos/IMG_1433.JPG" alt="Photo 9"></a>
+        </div>
+        <script type="text/javascript">
+            ;
+            (function ($) {
+
+                $('.swipebox').swipebox();
+
+            })(jQuery);
+        </script>
+        <ul>
+            <li>
+                <h3>1/26: Classes Begin</h3></li>
+            <li>
+                <h3>1/30: Pool Tournament (7:30pm, Textbook Prize)</h3></li>
+            <li>
+                <h3>1/31: Snow Tubing (1:00)</h3></li>
+            <li>
+                <h3>2/01: Sushi and Super Bowl (6:00)</h3></li>
+            <li>
+                <h3>2/02: Games Night (7:30)</h3>Card games, board games, video games, even bring your own!</li>
+            <li>
+                <h3>2/03: Karaoke Night (8:00)</h3></li>
+            <li>
+                <h3>2/04: Puppies and Pizza (5:30)</h3>Historically one of our more popular events, come to meet our friends at <a href="http://www.theanimalsupportproject.com/">The Animal Support Project (TASP)</a> (yes, the humans too)!</li>
+            <li>
+                <h3>2/05: Poker Tournament (7:30, Bitcoin prize)</h3></li>
+            <li>
+                <h3>2/06: Cocoa and S'mores (6:30)</h3></li>
+            <li>
+                <h3>2/07: Saratoga Winterfest (1:00, Limited Space)</h3></li>
+            <li>
+                <h3>2/08: Trampoline Park (12:00, Limited Space)</h3></li>
+            <li>
+                <h3>2/09: Rock Climbing (TBA)</h3></li>
+            <li>
+                <h3>2/10: Bid Dinner (6:00, Invitation Only)</h3></li>
+        </ul>
+        <h2>Where is Acacia?</h2>
+        <p>We are located at 145 Sunset Terrace, just up the hill past the Field House and RAHPS.</p>
+        <image src="Photos/campus-map.jpg" alt="Map">
+        <h2>Need a ride up the hill? Don't hesitate to call us. We will also be offering rides from freshman circle.</h2>
+        <ul>
+            <li>
+                <h3>President: Eric Dominguez</h3> (518) 961-6121</li>
+            <li>
+                <h3>Recruitment Chairs: Alan Shaw</h3> (908) 577-2581
+                <br/>
+                <h3>Joshua Jacobson</h3> (847) 254-0688</li>
+        </ul>
+
+    </section>
+    <footer>
+        <h2>Numbers to Know</h2>
+        <ul>
+            <li>
+                <h3>Big Apple Pizza</h3> (518) 274-4444</li>
+            <li>
+                <h3>A-Dragon Chinese</h3> (518) 271-8870</li>
+            <li>
+                <h3>IPAC</h3> (518) 276-IPAC</li>
+            <li>
+                <h3>RPI Student Health Center</h3> (518) 276-6287</li>
+            <li>
+                <h3>RPI Public Safety</h3> (518) 276-6656</li>
+        </ul>
+    </footer>
+</body>
+
+</html>

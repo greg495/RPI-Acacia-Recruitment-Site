@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <title>RPI Acacia Brothers</title>
+    <link rel=stylesheet href="css/styles.css">
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/handlebars-v4.0.5.js"></script>
+    <script>
+        $(document).ready(function () {
+            $.getJSON("Structure/brothers.json",
+                function (data) {
+                    var mysource = $('#brotherlisttemplate').html();
+                    var mytemplate = Handlebars.compile(mysource);
+                    var myresult = mytemplate(data);
+                    $('#brotherlist').html(myresult);
+                });
+        });
+    </script>
+</head>
+
+<body>
+    <img src="Photos/rush_acacia_desert.jpg" class="banner" alt="banner">
+    <nav class="nav">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li>Meet the Brothers</li>
+            <li><a href="philanthropy.html">Philanthropy</a></li>
+        </ul>
+    </nav>
+    <section class="content">
+        <h1>Meet the Brothers</h1>
+        <p>Below you can get to know a bit about our active brothers, but of course the best way is to come up and meet us! The most important part is finding a group of people that you can respect and trust; this is purpose of Rush. You can come for the events and free food, but stay for people you meet.</p>
+        <p>We realize that many of our position names are confusing, so you can mouse over any with an underline for a description.</p>
+        <!--p>To learn more about Acacia's philanthropy efforts, visit our philanthropy page.</p-->
+        <div id="brotherlist">Loading...</div>
+        <div id="brotherlisttemplate" class="handlebars">
+            <ul id="brothertemplate">
+                {{#each brothers}}
+                <li class="brother">
+                    <img src="Photos/composites/Renpol_Acacia_2016/{{photo}}" class="composite" alt="composite">
+                    <p>
+                    <strong><span class="roll">{{roll}}</span> <span class="name">{{name}}</span></strong> <span class="hometown">{{hometown}}</span>
+                    <br/><span class="major">{{major}}</span>
+                    <br/> {{#if positions}} {{#if pos_des}} House position(s): <span title="{{pos_des}}" class="positions description">{{positions}}</span>
+                    <!--If a description for a position exists, the position is underlined and displays the description on mouseover, else it's just a span-->
+                    {{else}}
+                    House position(s): <span class="positions">{{positions}}</span>{{/if}}
+                    <br/> {{/if}} {{#if organizations}} <span class="organizations">Other organizations: {{organizations}}</span>
+                    <br/> {{/if}}
+                    </p>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </section>
+</body>
+
+</html>

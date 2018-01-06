@@ -1,0 +1,84 @@
+body{
+    font-family: arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    
+    /*background-image: url("../Photos/coat-of-arms-acacia-fraternity.jpg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;*/
+}
+#gallery{
+    display: none;
+}
+.handlebars {
+  display: none;
+}
+.banner{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    width: 80%;
+    float: right;
+    border-top: solid thick gray;
+    margin-bottom: 2em;
+}
+footer li{
+    display: block;
+    float: left;
+    margin-right: 1em;
+}
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+nav{
+    padding-right: 40px;
+    width: 200px;
+    clear: both;
+    margin: 2em;
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul{
+    font-family: helvetica, serif;
+    margin: 0px;
+    float: left;
+    /*background-color: lightgray;
+    border: 1px black solid;*/
+}
+nav li{
+    padding: 0.25em;
+}
+.composite{
+    float: left;
+    overflow: auto;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+.brother{
+    clear: left;
+    list-style: none;
+}
+.roll{
+    font-size: 1.5em;
+    color: #D9B833; /*Official Acacia old gold*/
+}
+.positions{
+    color: black;
+}
+.description{
+    text-decoration: underline;
+}
+.content{
+    padding-right: 200px;
+    width: 60%;
+    float: right;
+    background-color: white;
+}
+a{
+    color: #D9B833;
+}

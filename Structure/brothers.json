@@ -1,0 +1,206 @@
+{"brothers": [
+    {
+        "name": "Anaximander",
+        "photo": "ANAXIMANDER.jpg",
+        "roll": "",
+        "hometown": "Troy, NY",
+        "major": "",
+        "positions": "Cat",
+        "pos_des": "You may laugh, but he has been here longer than any of the other actives. Anaximander, or Naxi, is named for one of the teachers of Pythagoras, Acacia's mentor.",
+        "organizations": ""
+    },
+    
+    {
+        "name": "Eric Dominguez",
+        "photo": "ERIC DOMINGUEZ.jpg",
+        "roll": "831",
+        "hometown": "Palm Desert, CA",
+        "major": "Chemistry 2016",
+        "positions": "",
+        "organizations": "Fitz Edward Consulting Group"
+    },
+    
+    {
+        "name": "Aidan Beckley",
+        "photo": "AIDAN BECKLEY.jpg",
+        "roll": "841",
+        "hometown": "Reading, MA",
+        "major": "Chemistry 2017",
+        "positions": "Senior Dean",
+        "pos_des": "Vice president and educates the pledges",
+        "organizations": "Rensselaer Chemistry Society"
+    },
+    
+    {
+        "name": "Peter McCurry",
+        "photo": "PETER McCURRY.jpg",
+        "roll": "843",
+        "hometown": "Lansdowne, PA",
+        "major": "Computer Science 2017",
+        "positions": "",
+        "organizations": "RPI Players"
+    },
+    
+    {
+        "name": "Gregory McCutcheon",
+        "photo": "GREG McCUTCHEON.jpg",
+        "roll": "844",
+        "hometown": "Nashua, NH",
+        "major": "Computer Science 2017",
+        "positions": "Junior Steward",
+        "pos_des": "In charge of obtaining food for the house and organizing cook crews",
+        "organizations": "Clarinet Choir, Symphonic Band, Pep Band"
+    },
+    
+    {
+        "name": "John Thai",
+        "photo": "JOHN THAI.jpg",
+        "roll": "845",
+        "hometown": "Ramsey, NJ",
+        "major": "Mechanical and Nuclear Engineering 2017",
+        "positions": "",
+        "organizations": "Capoeria, Smash Bros. Club"
+    },
+    
+    {
+        "name": "Eli Zervigon",
+        "photo": "ELI ZERVIGON.jpg",
+        "roll": "846",
+        "hometown": "New Orleans, LA",
+        "major": "Electrical Engineering 2017",
+        "positions": "Venerable Dean",
+        "pos_des": "President",
+        "organizations": "IEEE"
+    },
+    
+    {
+        "name": "Justin Burns",
+        "photo": "JUSTIN BURNS.jpg",
+        "roll": "847",
+        "hometown": "Smithtown, NY",
+        "major": "Aeronautical Engineering 2017",
+        "positions": "Treasurer",
+        "organizations": ""
+    },
+    
+    {
+        "name": "Joshua Jacobson",
+        "photo": "JOSHUA JACOBSON.jpg",
+        "roll": "848",
+        "hometown": "Glenview, IL",
+        "major": "Computer Science 2017",
+        "positions": "Rush Chair",
+        "organizations": "Pulse, Hillel"
+    },
+    
+    {
+        "name": "Kevin Brennan",
+        "photo": "KEVIN BRENNAN.jpg",
+        "roll": "849",
+        "hometown": "Mahopac, NY",
+        "major": "Chemical Engineering 2018",
+        "positions": "Academic Chair, Brotherhood Chair",
+        "organizations": "Smash Bros. Club"
+    },
+    
+    {
+        "name": "Caleb Gladstone",
+        "photo": "CALEB GLADSTONE.jpg",
+        "roll": "850",
+        "hometown": "East Greenwich, RI",
+        "major": "Mechanical Engineering 2018",
+        "positions": "",
+        "organizations": "Hillel"
+    },
+    
+    {
+        "name": "Ian Gross",
+        "photo": "IAN GROSS.jpg",
+        "roll": "851",
+        "hometown": "Loudonville, NY",
+        "major": "Computer Science 2017",
+        "positions": "Secretary",
+        "organizations": "Pep Band, Clarinet Choir, Symphonic Band, Rensselaer Music Association, Afro-Cuban Jazz Ensemble"
+    },
+    
+    {
+        "name": "Parker Slote",
+        "photo": "PARKER D. SLOTE.jpg",
+        "roll": "855",
+        "hometown": "Burlingame, CA",
+        "major": "Computer Science and ITWS 2018",
+        "positions": "Junior Dean",
+        "pos_des": "Social chair",
+        "organizations": "Computer Science Club"
+    },
+    
+    {
+        "name": "Joshua Dublin",
+        "photo": "JOSH DUBLIN.jpg",
+        "roll": "858",
+        "hometown": "Westport, CT",
+        "major": "Physics and Math 2019",
+        "positions": "Historian",
+        "organizations": ""
+    },
+    
+    {
+        "name": "Ethan Frechtman",
+        "photo": "ETHAN FRECHTMAN.jpg",
+        "roll": "859",
+        "hometown": "Boston, MA",
+        "major": "Math 2019",
+        "positions": "",
+        "organizations": ""
+    },
+    
+    {
+        "name": "Samuel Greenwald",
+        "photo": "SAM GREENWALD.jpg",
+        "roll": "860",
+        "hometown": "Sharon, MA",
+        "major": "Computer Science and Computer Systems Engineering 2019",
+        "positions": "Senior Steward",
+        "pos_des": "In charge of maintenance of the house; organizes work parties",
+        "organizations": ""
+    },
+    
+    {
+        "name": "Sean Lewis",
+        "photo": "SEAN LEWIS.jpg",
+        "roll": "861",
+        "hometown": "Belchertown, MA",
+        "major": "Physics 2019",
+        "positions": "Philanthropy Chair",
+        "organizations": ""
+    },
+    
+    {
+        "name": "Nickolas Menezes",
+        "photo": "NICKOLAS MENEZES.jpg",
+        "roll": "862",
+        "hometown": "Somerville, MA",
+        "major": "Physics and Computer Science 2017",
+        "positions": "",
+        "organizations": "RPI Players"
+    },
+    
+    {
+        "name": "Dustin Pratt",
+        "photo": "DUSTIN PRATT.jpg",
+        "roll": "863",
+        "hometown": "Southington, CT",
+        "major": "Math and Computer Science 2019",
+        "positions": "",
+        "organizations": ""
+    },
+    
+    {
+        "name": "Jacob Speicher",
+        "photo": "JACOB SPEICHER.jpg",
+        "roll": "864",
+        "hometown": "Mountain Home, PA",
+        "major": "Computer Science 2019",
+        "positions": "",
+        "organizations": "RPI Players"
+    }]}

@@ -1,0 +1,14 @@
+body{
+    background-color: #000000;
+    font-family: arial, sans-serif;
+    color: white;
+}
+a{
+    color: gold;
+}
+a:link, a:visited{
+    text-decoration: none;
+}
+a:hover, a:active{
+    text-decoration: underline;
+}
