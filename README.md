@@ -1,6 +1,6 @@
 # rush-rpi-acacia.org
-This is a recruitment website that I built for my college fraternity chapter. It was done as a final project for the class Fundamentals of Website Design. I took the class in Summer of 2016, thus the composite photos of the brothers are outdated, though it still shows the general concept. Our chapter was unfortunately never able to go live with this site, due to a lack of budget for hosting, and the fact that this was built by a single person (me), and likely would have had security issues.
-# Structure
+This is a recruitment website that I built for my college fraternity chapter. It was done as a final project for the class Fundamentals of Website Design. I took the class in Summer of 2016, thus the composite photos of the brothers are outdated, though it still shows the general concept. Our chapter was unfortunately never able to go live with this site, due to a lack of budget for hosting.
+# Pages
 Home Page: 
 This contains general info about the chapter, several links to external pages, campus map, recruitment event schedule, phone numbers for the president and recruitment chair. Much of this info is available on the recruitment calendars that we give out to prospective members. Clicking on the link "view some of our rush photos from previous years" brings up an image carousel, run by the JavaScript library Swipebox.
 
